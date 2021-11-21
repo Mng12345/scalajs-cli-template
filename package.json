@@ -1,6 +1,7 @@
 {
   "scripts": {
     "fastLinkJS": "sbt ~fastLinkJS",
+    "fullLinkJS": "sbt ~fullLinkJS",
     "dev": "sbt ~run"
   },
   "dependencies": {
