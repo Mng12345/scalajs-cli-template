@@ -1,0 +1,7 @@
+.metals
+.idea
+.vscode
+node_modules
+project/project
+project/target
+target

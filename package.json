@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "fastLinkJS": "sbt ~fastLinkJS",
+    "dev": "sbt ~run"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.21"
+  }
+}
