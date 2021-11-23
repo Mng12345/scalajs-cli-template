@@ -11,3 +11,10 @@ scalaJSUseMainModuleInitializer := true
 
 // for use npm commonjs modules
 scalaJSLinkerConfig ~= { _.withModuleKind(ModuleKind.CommonJSModule) }
+
+// scala format
+import scalariform.formatter.preferences._
+scalariformPreferences := scalariformPreferences.value
+  .setPreference(AlignSingleLineCaseStatements, true)
+  .setPreference(DoubleIndentConstructorArguments, true)
+  .setPreference(DanglingCloseParenthesis, Preserve)
